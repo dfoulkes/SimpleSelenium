@@ -28,7 +28,7 @@ public class extractBbcHeadlines extends ChromeSetup {
     }
 
 
-     void execute(){
+     public void execute(){
         //gget headlines
         List<String> headlines = getNewsArticlesFromBbc();
         //print results to the console.
