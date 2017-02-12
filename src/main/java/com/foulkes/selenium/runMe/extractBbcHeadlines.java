@@ -1,6 +1,8 @@
-package com.foulkes.selenium;
+package com.foulkes.selenium.runMe;
 
 import java.util.List;
+
+import com.foulkes.selenium.ChromeSetup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

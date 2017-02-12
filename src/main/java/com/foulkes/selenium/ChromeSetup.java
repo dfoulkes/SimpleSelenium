@@ -32,9 +32,9 @@ public abstract class ChromeSetup {
     }
 
 
-    abstract void execute();
+    public abstract void execute();
 
-    protected void endSession(){
+    public void endSession(){
         driver.quit();
     }
 

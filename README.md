@@ -12,7 +12,7 @@ a simple selenium to demonstrate test automation written in Java application.
 5. Open a new terminal and test that maven works with the following command: mvn -version
 6. Install [Chrome](https://www.mozilla.org/en-GB/firefox/new/)
 7. We will be using webDriver to communicarte with Chrome, their is a binary supplied in the resources folder src/main/resources pleace the chromedriver in the following directory:
-8. This is designed to be ran from within a [Eclipse](https://eclipse.org/downloads/) . 
+8. This is designed to be ran from within a [Eclipse](https://eclipse.org/downloads/). 
 
 ##Running the Test Application
 
@@ -23,12 +23,24 @@ git clone https://github.com/dfoulkes/SimpleSelenium.git
 ```
 
 2. Import the project into Eclipse
-    
+    1. File, import
+      ![alt text](https://raw.githubusercontent.com/dfoulkes/SimpleSelenium/master/src/main/resources/images/eclipse_maven_import.png "importing into eclipse image")
+    2. Choose Existing Maven Project.
+      ![alt text](https://raw.githubusercontent.com/dfoulkes/SimpleSelenium/master/src/main/resources/images/select_git_repo.png "selecting repo image")
+    3. Click finish.
+      
+You should now have the project imported into Eclipse, the file structure should look something like:
+![alt text](https://raw.githubusercontent.com/dfoulkes/SimpleSelenium/master/src/main/resources/images/file_structure.png "Eclipse File Structure image")   
 
-3. Build using Maven
+3. In the terminal navigate to the path of the pom.xml file and execute the following:
 ```bash
 mvn clean install
 ```
+
+4. To run the application choose one of the executable classes in the com.foulkes.selenium.runMe package right click and select Run Application
+![alt text](https://raw.githubusercontent.com/dfoulkes/SimpleSelenium/master/src/main/resources/images/run_in_eclipse.png "Eclipse File Structure image")   
+
+
 
 ##Key Notes
 
@@ -37,8 +49,6 @@ mvn clean install
 if you are using Windows you will need to change the path of the Chrome Driver to get it working.
 
 todo this in the ChromeSetup.java file change the update the following line replacing Winodws path to the file path of the chromedriver:
-
-![alt text](https://raw.githubusercontent.com/dfoulkes/SimpleSelenium/master/src/main/resources/images/eclipse_maven_import.png "Logo Title Text 1")
 
 
 ```java
