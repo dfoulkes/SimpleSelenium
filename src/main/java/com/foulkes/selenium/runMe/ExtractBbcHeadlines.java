@@ -19,11 +19,11 @@ import static java.util.stream.Collectors.toList;
  *
  *
  */
-public class extractBbcHeadlines extends ChromeSetup {
+public class ExtractBbcHeadlines extends ChromeSetup {
 
 
 
-    public extractBbcHeadlines(){
+    public ExtractBbcHeadlines(){
         super();
     }
 
@@ -44,6 +44,6 @@ public class extractBbcHeadlines extends ChromeSetup {
     }
 
     public static void main(String[] args){
-        new extractBbcHeadlines();
+        new ExtractBbcHeadlines();
     }
 }
