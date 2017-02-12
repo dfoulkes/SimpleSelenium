@@ -38,7 +38,7 @@ if you are using Windows you will need to change the path of the Chrome Driver t
 
 todo this in the ChromeSetup.java file change the update the following line replacing Winodws path to the file path of the chromedriver:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/dfoulkes/SimpleSelenium/tree/master/src/main/resources/images/eclipse_maven_import.png "Logo Title Text 1")
 
 
 ```java
