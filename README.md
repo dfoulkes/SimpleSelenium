@@ -1,7 +1,15 @@
 # Simple Selenium
-a simple selenium to demonstrate test automation written in Java application.
+Welcome, this is a fast guide for setting up Selenium environment within Eclipse. 
 
 
+## What is Selenium?
+as seen on [thier website](http://www.seleniumhq.org)
+
+Selenium automates browsers. That's it! What you do with that power is entirely up to you. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that. Boring web-based administration tasks can (and should!) also be automated as well.
+
+## Who is this for?
+
+I am trying to keep this guide as simple as possible so to remain accessible to people of all levels of development experience, however this is not a guide on how to code in java so if you've never seen any C syntax programming language before then it may be quite difficult. 
 
 ## Installation Instructions
 
