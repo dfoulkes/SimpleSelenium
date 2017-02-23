@@ -56,8 +56,9 @@ mvn clean install
 
 if you are using Windows you will need to change the path of the Chrome Driver to get it working.
 
-todo this in the ChromeSetup.java file change the update the following line replacing Winodws path to the file path of the chromedriver:
+TO DO this in the ChromeSetup.java file change the update the following line replacing Winodws path to the file path of the chromedriver:
 
+Please visit ![alt text](https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver "Chrome Driver") for detailed instructions on installing Chrome Driver for your OS.
 
 ```java
 private final String CHROME_DRIVER_LOCATION = "WINDOWS_PATH";
