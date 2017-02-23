@@ -19,7 +19,13 @@ I am trying to keep this guide as simple as possible so to remain accessible to 
 4. Follow the [Maven installation guide](https://maven.apache.org/install.html)
 5. Open a new terminal and test that maven works with the following command: mvn -version
 6. Install [Chrome](https://www.mozilla.org/en-GB/firefox/new/)
-7. We will be using webDriver to communicarte with Chrome, their is a binary supplied in the resources folder src/main/resources pleace the chromedriver in the following directory:
+7. We will be using webDriver to communicarte with Chrome, their is a binary supplied in the resources folder src/main/resources place the chromedriver in the following directory: 
+```bash
+   cd SimpleSelenium
+   mkdir -p /sel/driver
+   cp ./src/main/resources/drivers/chromedriver /sel/driver
+   chmod +x /sel/driver/chromedriver
+```
 8. This is designed to be ran from within a [Eclipse](https://eclipse.org/downloads/). 
 
 ##Running the Test Application
